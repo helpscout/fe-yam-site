@@ -6,15 +6,15 @@ This challenge comprises of both back-end programming (e.g. Ruby, Jekyll), and f
 
 The goal is to complete everything listed under "Requirements" in the design spec. If you finish, feel free to tackle the items under "Nice to have".
 
-You have **3 hours** to complete this task. Please stick to this time limit.
+You have **6 hours** to complete this task. Please stick to this time limit.
 
 Note: You aren't restricted to just Ruby. Feel free to use shell scripts, Node, etc... to complete you tasks.
 
 #### It is totally okay if you don't finish!
 
-Once 3 hours is up, submit your completed project to us (check out the submitting notes for details).
+Once 6 hours is up, submit your completed project to us (check out the submitting notes for details).
 
-Note: **Do not count** dev environment setup as part of your 3 hour limit. Start the clock once you've gotten everything set up and are able to successfully run the project on your machine. You can of course do this challenge in chunks. As long as your total project time limit does not exceed 3 hours.
+Note: **Do not count** dev environment setup as part of your 6 hour limit. Start the clock once you've gotten everything set up and are able to successfully run the project on your machine. You can of course do this challenge in chunks. As long as your total project time limit does not exceed 6 hours.
 
 ## 🙌 Submitting
 
@@ -28,14 +28,14 @@ Your pull request description/submission notes should detail:
 - Approach you took
 - What you were able to complete
 
-### If you didn't finish within 3 hours...
+### If you didn't finish within 6 hours...
 
 Again, it's totally fine (seriously), please also include the following in your notes:
 
 - What you weren't able to complete
 - How another developer can take over to complete it
 
-### If you did finish within 3 hours...
+### If you did finish within 6 hours...
 
 Feel free to add additional enhancements (e.g. fancy designs, additional embed support, tests, etc...). If you do, please include the following in your notes:
 

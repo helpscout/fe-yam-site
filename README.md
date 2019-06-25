@@ -31,6 +31,7 @@ Below are notable folders in this project:
 ```
 /fe-yam-site
 | _data/
+| _sass/
 | _posts/
 \ _assets/
 ```
