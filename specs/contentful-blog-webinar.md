@@ -4,7 +4,7 @@
 
 We're setting up [Contentful](https://www.contentful.com/) to be the CMS for our Jekyll site. We've added some content and we're ready to integrate!
 
-## Task
+## Requirements
 
 1. Hook up Contentful with Jekyll
 2. Create the HTML landing page for Webinars
@@ -68,3 +68,13 @@ For now, please make sure that the form elements are ready to go, making it easi
 ## Thanks!
 
 Thank you so much!!!
+
+## (Very) Nice to have
+
+### Local dev experience
+
+It looks like the [contentful plugin](https://github.com/contentful/jekyll-contentful-data-import) requires us to run `bundle exec jekyll contentful` everytime we want to sync the content.
+
+It would be nice if we only had to run 1 command, and Jekyll would magically sync and build our local dev!
+
+That way, we'll never have to worry (or forget) to sync with Contentful!
