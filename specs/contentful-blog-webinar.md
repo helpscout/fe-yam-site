@@ -49,9 +49,9 @@ We've added the initial `.scss` and `.js` files to Jekyll. They should be under 
 
 They've already been loaded into our special custom `page-webinars.html` layout.
 
-**Don't worry about the top nav for now!**
+**Top nav**
 
-(We're still workin' on that)
+Feel free to code up the static nav (just logo/links/button) or leave blank altogether.
 
 Please code up all the things underneath the top nav.
 
@@ -63,7 +63,7 @@ We're going to be using Contentful to manage the webinar dates. After setting up
 
 Don't worry about hooking up the sign up form yet. (We're working on an integration with Hubspot).
 
-For now, please make sure that the form elements are ready to go, making it easier to integrate when we're ready.
+For now, please make sure that the form elements are styled and ready to go, making it easier to integrate when we're ready.
 
 ## Thanks!
 
