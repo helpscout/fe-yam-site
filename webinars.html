@@ -2,4 +2,85 @@
 layout: 'page-webinars'
 ---
 
-Coming soon! Webinars.
+<div class="container">
+
+  <!-- Webinar Main -->
+  <div class="webinar-main">
+    <div class="main-left">
+      <h5>Help Scout Classes</h5>
+      <h1>Free Training from the Team</h1>
+      <p>New to Help Scout? Get a full tour of the app and get all your questions 
+        answered with one of our resident customer service champions.
+      </p>
+    </div>
+    <div class="main-right">
+      <img src="/assets/images/webinar_training.jpg" alt="Three happy webinar attendees">
+    </div>
+  </div>
+
+  <!-- Webinar Schedule Headings -->
+  <div class="webinar-headings">
+    <div>
+      <h2>Live Classes twice per week, every week</h2>
+      <h5>All times are in America, New York timezone.</h5>
+    </div>
+  </div>
+
+  <!-- Webinar Schedule -->
+  <ul class="webinar-schedule" id="webinarSchedule">
+  {% for data in site.data.contentful.spaces.posts.recurringClass %}
+    {% assign webinar = data[1] %}
+    <li class="webinar-card">
+      <div id="webKey" data-webinar-key="{{webinar.webinar_key}}">
+        <div>
+          <p>{{webinar.day}}, {{webinar.date}}</p>
+          <p>{{webinar.time | date: "%I" | plus: 0}}{{webinar.time | date: "%P"}}</p>
+        </div>
+        <button type="button" data-toggle="modal" data-target="#webinarForm">Register</button>
+      </div>
+    </li>
+  {% endfor %}
+    <li class="webinar-card">
+      <div>
+        <div>
+          <p>Watch a Pre-Recorded Webinar</p>
+          <p>12 minutes</p>
+        </div>
+        <button type="button" data-toggle="modal" data-target="#webinarForm">Register</button>
+      </div>
+    </li> 
+  </ul>
+
+  <!-- Modal -->
+  <div class="modal fade webinar-form" id="webinarForm" tabindex="-1" role="dialog" aria-labelledby="webinarForm" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="modal-title" id="webinarTitle">
+          </div>
+          <div>
+              <img src="https://placeimg.com/150/150/animals" alt="placeholder image">
+          </div>
+          <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button> -->
+        </div>
+        <div class="modal-body">
+        <!-- Modal Form -->
+          <form action="" class="webinarSignup">
+            <input type="text" name="first" class="first" value="" placeholder="First Name">
+            <input type="text" name="last" class="last" placeholder="Last Name">
+            <input type="email" name="email" class="work-email" placeholder="Work Email">
+            <select name="team-count" class="team-count">
+              <option value="">How many team members do you expect will use Help Scout?</option>
+              <option value="1">1</option>
+              <option value="5">5</option>
+              <option value="10">10</option>
+            </select>
+          </form>
+          <button type="button">Join Us!</button>
+          <!-- End Form -->
+        </div>
+      </div>
+    </div>
+  </div>

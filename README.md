@@ -1,3 +1,49 @@
+# Hello, Help Scout! 
+
+Thank you for considering me for the Front End Engineer position at Help Scout! I had a blast building this project. 
+
+To get up and running,  please `bundle install` in a terminal window and 
+
+``` 
+rake start 
+```
+
+This should pull the data from the contentful API and build the jekyll site.
+
+### The changes I made 
+- Integrated the contentful api 
+- Created posts and a layout (post_contentful.html) for displaying blog posts from contentful
+- Coded and styled the webinar page using Bootstrap
+- Implemented a modal window using Bootstrap
+- Wrote a small jQuery script to dynamically pull webinar info into the modal window 
+- Wrote a rakefile to pull API data and start the project with one command
+
+### I came very close to finishing, but did not complete the following: 
+- Styling the modal form, including:
+  * Finish styling the modal header, use image/background from mock
+  * Fine tune the look/size of modal headers
+  * Finish styling the select menu
+  * Getting the form ready to integrate, such as passing correct webinar data to form 
+  * Form accessibility, such as form focus
+- Small styling details
+  * Implement main page background image
+  * Main image might be a little too big on mobile -- I would have consulted the designer about this
+
+I estimate that it would take 1 - 2 hours to complete this work. 
+
+### If I had more time I would have: 
+- Investigated a way to generate blog posts. Right now you must manually create a markdown file and enter the blog id as a front matter variable. 
+- Set up environmental variables so we aren't pushing the contentful API access token onto github
+- Measured pixels, if that's part of the process at Help Scout. To be efficient with time
+I eyeballed the position of the elements
+- Added client-side form validation (Jared and I discussed this during our interview and I'm 
+sad I didn't get a chance to implement anything!)
+
+Thanks again, and if you celebrate, hope you all have a wonderful July 4 holiday. 
+
+
+
+
 # 🥔 Yam Site
 
 > Front-end Engineer Hiring Project (Design Team)

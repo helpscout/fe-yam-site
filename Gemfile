@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-ruby RUBY_VERSION
+ruby '2.6.3'
 
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
@@ -26,4 +26,6 @@ gem "minima"
 group :jekyll_plugins do
   gem "jekyll-feed"
   gem "jekyll-seo-tag"
+  gem "jekyll-contentful-data-import"
+  gem "bootstrap", "~> 4.3.1"
 end

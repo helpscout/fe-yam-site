@@ -1,0 +1,9 @@
+---
+layout: post
+---
+
+{% assign blog = site.data.contentful.spaces.posts.testBlogPost[page.blog_id] %}
+
+<article>
+  {{ blog["body"] | rich_text }} 
+</article>
