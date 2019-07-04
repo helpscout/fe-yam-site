@@ -29,8 +29,6 @@ This should pull the data from the contentful API and build the jekyll site.
   * Implement main page background image
   * Main image might be a little too big on mobile -- I would have consulted the designer about this
 
-I estimate that it would take 1 - 2 hours to complete this work. 
-
 ### If I had more time I would have: 
 - Investigated a way to generate blog posts. Right now you must manually create a markdown file and enter the blog id as a front matter variable. 
 - Set up environmental variables so we aren't pushing the contentful API access token onto github
