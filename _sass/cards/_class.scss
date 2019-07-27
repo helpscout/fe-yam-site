@@ -1,0 +1,13 @@
+.card\:class {
+  align-items: center;
+  display: grid;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.04);
+  padding: 30px;
+  grid-template-columns: 1fr 93px;
+  grid-column-gap: 15px;
+}
+
+.card\:class\:\:heading {
+  margin: 0;
+}

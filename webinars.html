@@ -2,4 +2,109 @@
 layout: 'page-webinars'
 ---
 
-Coming soon! Webinars.
+<div class="webinars">
+  <div class="block:webinars">
+    <div class="block:webinars@about">
+      <div class="block:webinars@about::box-1">
+        <header class="block:webinars@header">
+          <h3 class="block:webinars@header::subheading">Help Scout Classes</h3>
+          <h2 class="block:webinars@header::heading">Free Training from the Team</h2>
+        </header>
+        <div class="block:webinars@about::content">
+          <p>New to Help Scout? Get a full tour of the app and get all your questions answered with one of our resident customer champions.</p>
+        </div>
+      </div>
+      <div class="block:webinars@about::box-2">
+        <div class="block:webinars@images">
+          <figure class="block:webinars@images::image-1">
+            <img src="{{ '/assets/images/Abigail.png' | relative_url }}" alt="Image of Abigail">
+          </figure>
+          <figure class="block:webinars@images::image-3">
+            <img src="{{ '/assets/images/Javier.png' | relative_url }}" alt="Image of Javier">
+          </figure>
+          <figure class="block:webinars@images::image-2">
+            <img src="{{ '/assets/images/Chanita.png' | relative_url }}" alt="Image of Chanita">
+          </figure>
+        </div>
+      </div>
+    </div>
+    <aside class="block:webinars@info">
+      <h3 class="block:webinars@info::heading">Live classes twice per week, every week</h3>
+      <div class="block:webinars@info::content">
+        <p>All times are in America, New York timezone.</p>
+      </div>
+      <ul class="block:webinars@class">
+        {% for class in site.data.contentful.spaces.posts.recurringClass %}
+        <li>
+          <article class="card:class">
+            <div class="card:class::box">
+              <time class="card:class::heading">
+                <strong>{{ class[1].day }}, {{ class[1].date }}</strong>
+                <br>
+                {{ class[1].time }}
+              </time>
+            </div>
+            <button register class="component:button">Register</button>
+          </article>
+        </li>
+        {% endfor %}
+        <li>
+          <article class="card:class">
+            <div class="card:class::box">
+              <h4 class="card:class::heading">
+                <strong>Watch a Pre-Recorded Webinar</strong>
+                <br>
+                12 Minutes
+              </h4>
+            </div>
+            <button register class="component:button »alt">Register</button>
+          </article>
+        </li>
+      </ul>
+    </aside>
+    <aside class="component:modal">
+      <div class="block:modal@register component:modal::box">
+        <div class="block:modal@register::header">
+          <div class="block:modal@register::box">
+            <h4 class="block:modal@register::subheading">You are registering for a class on:</h4>
+            <h3 class="block:modal@register::heading">Monday April 15 at 5pm</h3>
+          </div>
+          <figure class="block:modal@register::icon">
+            <img src="{{ '/assets/images/Thumbs Up Illo.png' | relative_url }}" alt="">
+          </figure>
+        </div>
+        <div class="block:modal@register::form">
+          <form class="form:register" form@register>
+            <div class="form:register::row">
+              <div class="form:register::box">
+                <input type="text" class="form:register::input" placeholder="First name" required>
+              </div>
+              <div class="form:register::box">
+                <input type="text" class="form:register::input" placeholder="Last name" required>
+              </div>
+            </div>
+            <div class="form:register::row">
+              <div class="form:register::box">
+                <input type="email" class="form:register::input" placeholder="Email" required>
+              </div>
+            </div>
+            <div class="form:register::row">
+              <div class="form:register::box">
+                <select class="form:register::select" required>
+                  <option value="" disabled selected hidden>How many team members do you expect will use Help Scout?</option>
+                  <option value="5">5</option>
+                  <option value="10">10</option>
+                  <option value="20+">20+</option>
+                </select>
+              </div>
+            </div>
+            <div class="form:register::action">
+              <button class="component:button »full »large">Join Us!</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <a href="#" modal@close class="component:modal::close"></a>
+    </aside>
+  </div>
+</div>

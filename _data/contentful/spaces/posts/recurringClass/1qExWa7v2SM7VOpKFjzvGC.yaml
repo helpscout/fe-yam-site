@@ -1,0 +1,12 @@
+---
+sys:
+  id: 1qExWa7v2SM7VOpKFjzvGC
+  created_at: !ruby/object:DateTime 2019-05-20 00:36:42.931000000 Z
+  updated_at: !ruby/object:DateTime 2019-05-30 14:20:58.055000000 Z
+  content_type_id: recurringClass
+  revision: 7
+day: Thursday
+date: June 6
+time: 6PM EDT
+time_stamp: '2019-06-06T22:00:00.000Z'
+webinar_key: '647533582917113100'

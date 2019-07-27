@@ -1,0 +1,21 @@
+.block\:webinars\@images {
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  grid-template-rows: repeat(20, 20px);
+}
+
+.block\:webinars\@images\:\:image-1 {
+  display: block;
+  grid-column: 1 / 7;
+  grid-row: 3;
+}
+.block\:webinars\@images\:\:image-2 {
+  display: block;
+  grid-column: 4 / 16;
+  grid-row: 5;
+}
+.block\:webinars\@images\:\:image-3 {
+  display: block;
+  grid-column: 13 / 22;
+  grid-row: 0;
+}

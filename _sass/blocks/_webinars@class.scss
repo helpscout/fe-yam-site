@@ -1,0 +1,12 @@
+.block\:webinars\@class {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  @include mq ($to: 800px) {
+    grid-template-columns: 1fr;
+  }
+}

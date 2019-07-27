@@ -10,9 +10,16 @@ layout: default
     {% for post in site.posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+    {% for post in site.data.contentful.spaces.posts.testBlogPost %}
+      <li>
+        <span class="post-meta">{{ post[1].sys.updated_at | date: "%b %-d, %Y" }}</span>
+        <h2>
+          {{ post[1].title | escape }}
         </h2>
       </li>
     {% endfor %}

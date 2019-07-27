@@ -1,0 +1,22 @@
+.block\:webinars\@info {}
+
+.block\:webinars\@info\:\:heading {
+  font-size: 30px;
+  font-weight: 500;
+  margin: 0 0 10px 0;
+
+  @include mq ($to: 800px) {
+    font-size: 24px;
+  }
+}
+
+.block\:webinars\@info\:\:content {
+  color: map-get($charcoal, '300');
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 35px;
+
+  @include mq ($to: 800px) {
+    font-size: 24px;
+  }
+}

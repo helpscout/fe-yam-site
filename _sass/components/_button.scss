@@ -1,0 +1,31 @@
+.component\:button {
+  background: map-get($blue, '500');
+  border: 1px solid transparent;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #fff;
+  display: flex;
+  font-family: 'Graphik';
+  font-size: 14px;
+  justify-content: center;
+  padding: 12px 15px;
+
+  &:hover {
+    cursor: pointer;
+    box-shadow: 0 0 6px rgba(#000, .1);
+  }
+
+  &.»large {
+    font-size: 17px;
+  }
+
+  &.»full {
+    width: 100%;
+  }
+
+  &.»alt {
+    background: #fff;
+    border-color: map-get($charcoal, '200');
+    color: map-get($blue, '500');
+  }
+}
