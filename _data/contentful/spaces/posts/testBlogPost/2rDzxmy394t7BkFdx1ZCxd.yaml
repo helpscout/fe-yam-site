@@ -1,0 +1,327 @@
+---
+sys:
+  id: 2rDzxmy394t7BkFdx1ZCxd
+  created_at: !ruby/object:DateTime 2019-06-25 17:45:27.160000000 Z
+  updated_at: !ruby/object:DateTime 2019-06-25 17:45:27.160000000 Z
+  content_type_id: testBlogPost
+  revision: 1
+title: How to Communicate Ideas Effectively
+body:
+  data: {}
+  content:
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: Your boss throws out an idea like, “What if we lowered our first response
+        time for customer emails?” or makes a passing comment about liking another
+        brand’s new video marketing strategy. What exactly are you supposed to do
+        with this information? Should you type up a job listing to hire another person
+        for your Support team and order a new video camera?
+      nodeType: text
+    nodeType: paragraph
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: Robert Sutton, a professor at Stanford University, once heard 
+      nodeType: text
+    - data:
+        uri: https://www.wsj.com/articles/how-bosses-waste-their-employees-time-1534126140
+      content:
+      - data: {}
+        marks: []
+        value: a story (which may or may not be true) about a CEO who noted there
+          were no blueberry muffins
+        nodeType: text
+      nodeType: hyperlink
+    - data: {}
+      marks: []
+      value: " while making small talk before a breakfast meeting began. It wasn’t
+        until years later that the CEO realized there were blueberry muffins at every
+        meeting he attended from that day forward because of that comment."
+      nodeType: text
+    nodeType: paragraph
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: Sutton goes on to say that leaders “make offhand comments and don’t consider
+        that their employees may interpret them as commands.” He urges leaders not
+        to waste their employees’ time by inadvertently creating unnecessary work
+        with this kind of miscommunication.
+      nodeType: text
+    nodeType: paragraph
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: I’d argue this applies to relationships without power imbalances as well.
+        Communicating ideas effectively is important for coworkers, couples, and even
+        friends.
+      nodeType: text
+    nodeType: paragraph
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: For example, my husband Josh loves to dream, and I love to execute on
+        tasks. When he throws out an idea, I can’t help but create an instant to-do
+        list in my mind, whether he wants me to or not. Sutton suggests avoiding miscommunications
+        by prefacing an idea with something like, “Please don’t do anything; I am
+        just thinking out loud.”
+      nodeType: text
+    nodeType: paragraph
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: 'Josh and I gave this advice a shot. To avoid stressing me out, he’d
+        say, “I’m in my mental sandbox” before sharing a pie-in-the-sky idea. There
+        are two rules in the mental sandbox: 1.) Anything goes. 2.) No action is required.
+        Josh can ask me what it would be like if he were the mayor of our city, and
+        I don’t have to skip a beat sipping my hot tea to think about how we’d afford
+        campaign posters.'
+      nodeType: text
+    nodeType: paragraph
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: The mental sandbox was a helpful tool for us, but it didn’t always work.
+        When Josh would throw out ideas like, “What if we spent less time on our phones?”
+        or “What if we changed up our diet?” I knew he wasn’t making demands — but
+        these weren’t entirely hypothetical ideas, either. We were still running into
+        mismatched expectations about what needed action and what was just daydreaming,
+        and this was a source of conflict and confusion for both of us.
+      nodeType: text
+    nodeType: paragraph
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: I began to wonder how my teammates process idea discussions, so I created
+        a poll in Slack.
+      nodeType: text
+    nodeType: paragraph
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: ''
+      nodeType: text
+    nodeType: paragraph
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: It was eye-opening to learn that, unlike me, my teammates enjoy the process
+        of tossing around ideas sometimes, and they don’t necessarily 
+      nodeType: text
+    - data: {}
+      marks:
+      - type: italic
+      value: feel the need to execute on every little thing that’s said
+      nodeType: text
+    - data: {}
+      marks: []
+      value: ". I realized what I was missing all along was a middle ground — something
+        in between ideas that need immediate action and mental sandbox ideas that
+        need no action at all. More often than not, people need space to process verbally,
+        suss things out, and gather feedback as they bounce ideas off each other to
+        refine their thinking. Here’s the framework for idea discussions I came up
+        with that makes room for this important middle ground:"
+      nodeType: text
+    nodeType: paragraph
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: 'Level 1: If we talk about it, we must take action.'
+      nodeType: text
+    nodeType: heading-3
+  - data: {}
+    content:
+    - data: {}
+      content:
+      - data: {}
+        content:
+        - data: {}
+          marks: []
+          value: We should have blueberry muffins at our meetings.
+          nodeType: text
+        nodeType: paragraph
+      nodeType: list-item
+    - data: {}
+      content:
+      - data: {}
+        content:
+        - data: {}
+          marks: []
+          value: Kelly is out sick today, so we need to find someone else on the Support
+            team to cover her live chat shift this afternoon.
+          nodeType: text
+        nodeType: paragraph
+      nodeType: list-item
+    - data: {}
+      content:
+      - data: {}
+        content:
+        - data: {}
+          marks: []
+          value: That customer is angry and asked for a refund.
+          nodeType: text
+        nodeType: paragraph
+      nodeType: list-item
+    - data: {}
+      content:
+      - data: {}
+        content:
+        - data: {}
+          marks: []
+          value: I have to take a 15 minute break.
+          nodeType: text
+        nodeType: paragraph
+      nodeType: list-item
+    - data: {}
+      content:
+      - data: {}
+        content:
+        - data: {}
+          marks: []
+          value: Can you please help me?
+          nodeType: text
+        nodeType: paragraph
+      nodeType: list-item
+    nodeType: unordered-list
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: 'Level 2: I would probably like action at some point, but I’m not exactly
+        sure how it should look, and verbally processing together would help clarify.'
+      nodeType: text
+    nodeType: heading-3
+  - data: {}
+    content:
+    - data: {}
+      content:
+      - data: {}
+        content:
+        - data: {}
+          marks: []
+          value: Wouldn’t it be nice to have blueberry muffins at our meetings sometimes?
+          nodeType: text
+        nodeType: paragraph
+      nodeType: list-item
+    - data: {}
+      content:
+      - data: {}
+        content:
+        - data: {}
+          marks: []
+          value: What if we started an internship program at Help Scout?
+          nodeType: text
+        nodeType: paragraph
+      nodeType: list-item
+    - data: {}
+      content:
+      - data: {}
+        content:
+        - data: {}
+          marks: []
+          value: I’m thinking about going back to school.
+          nodeType: text
+        nodeType: paragraph
+      nodeType: list-item
+    - data: {}
+      content:
+      - data: {}
+        content:
+        - data: {}
+          marks: []
+          value: It seems like we should have a higher trial-to-paid conversion rate.
+          nodeType: text
+        nodeType: paragraph
+      nodeType: list-item
+    - data: {}
+      content:
+      - data: {}
+        content:
+        - data: {}
+          marks: []
+          value: I’m thinking out loud. Can you please help me flesh this out?
+          nodeType: text
+        nodeType: paragraph
+      nodeType: list-item
+    nodeType: unordered-list
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: 'Level 3: There is absolutely no action needed; I am strictly daydreaming
+        out loud.'
+      nodeType: text
+    nodeType: heading-3
+  - data: {}
+    content:
+    - data: {}
+      content:
+      - data: {}
+        content:
+        - data: {}
+          marks: []
+          value: Oh, would you look at that. There aren’t any blueberry muffins at
+            this meeting.
+          nodeType: text
+        nodeType: paragraph
+      nodeType: list-item
+    - data: {}
+      content:
+      - data: {}
+        content:
+        - data: {}
+          marks: []
+          value: What if Help Scout had an office on Mars one day?
+          nodeType: text
+        nodeType: paragraph
+      nodeType: list-item
+    - data: {}
+      content:
+      - data: {}
+        content:
+        - data: {}
+          marks: []
+          value: Picture us opening our own coffee shop together in Italy.
+          nodeType: text
+        nodeType: paragraph
+      nodeType: list-item
+    - data: {}
+      content:
+      - data: {}
+        content:
+        - data: {}
+          marks: []
+          value: I wish I knew Spanish.
+          nodeType: text
+        nodeType: paragraph
+      nodeType: list-item
+    - data: {}
+      content:
+      - data: {}
+        content:
+        - data: {}
+          marks: []
+          value: I’m in my mental sandbox.
+          nodeType: text
+        nodeType: paragraph
+      nodeType: list-item
+    nodeType: unordered-list
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: ''
+      nodeType: text
+    nodeType: paragraph
+  nodeType: document

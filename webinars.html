@@ -2,4 +2,28 @@
 layout: 'page-webinars'
 ---
 
-Coming soon! Webinars.
+<div id="webinars-banner">
+  <h3>Help Scout Classes</h3>
+  <h1>Free Training from the Team</h1>
+  <p>New to Help Scout? Get a full tour of the app and get all your questions answered with one of our resident customer champions.</p>
+</div>
+
+<div id="webinars-container">
+  <h2>Live classes twice per week, every week</h2>
+  <p>All time are in America, New York timezone.</p>
+  <ul id="webinars-list">
+    {% for webinar in site.data.contentful.spaces.posts.recurringClass %}
+      {% assign webinar_id = webinar[0] %}
+      {% assign webinar_data = webinar[1] %}
+      <li class="webinar">
+        <h3>{{ webinar_data.day }}, {{ webinar_data.date }}</h3>
+        <p>{{ webinar_data.time }}</p>
+        <a href="#" class="button">Register</a>
+      </li>
+    {% endfor %}
+    <li>
+      <h3>Watch a Pre-recorded Webinar</h3>
+      <p>12 minutes</p>
+      <a href="#" class="button button-white">Register</a>
+  </ul>
+</div>

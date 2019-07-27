@@ -1,0 +1,542 @@
+---
+sys:
+  id: 53wlnNBr31n8c6OJESxkpU
+  created_at: !ruby/object:DateTime 2019-06-21 17:32:12.996000000 Z
+  updated_at: !ruby/object:DateTime 2019-06-21 19:49:09.330000000 Z
+  content_type_id: testBlogPost
+  revision: 2
+title: Create a Winning Customer-Centric Marketing Strategy
+body:
+  data: {}
+  content:
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: It’s likely not a surprise to you that putting your customer first is
+        good for business. But building a customer-centric marketing strategy for
+        your business can be difficult!!!!!!
+      nodeType: text
+    nodeType: paragraph
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: Not only is 
+      nodeType: text
+    - data:
+        uri: https://www.helpscout.com/helpu/what-customers-need/
+      content:
+      - data: {}
+        marks: []
+        value: uncovering what your customers truly want
+        nodeType: text
+      nodeType: hyperlink
+    - data: {}
+      marks: []
+      value: " difficult, but it can also often feel like it’s directly in opposition
+        to your business’s best interests "
+      nodeType: text
+    - data: {}
+      marks:
+      - type: italic
+      value: "(“I’m afraid we can’t discount that product by 99%, and I can’t give
+        you our CEO’s phone number.”)"
+      nodeType: text
+    - data: {}
+      marks: []
+      value: "."
+      nodeType: text
+    nodeType: paragraph
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: The good news is that putting in the work to deliver customer-centric
+        marketing pays off.
+      nodeType: text
+    nodeType: paragraph
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: Help Scout believes customer centricity isn’t just great for business
+        — it’s also 
+      nodeType: text
+    - data:
+        uri: https://www.helpscout.com/helpu/being-a-customer-centric-company/
+      content:
+      - data: {}
+        marks: []
+        value: a more satisfying way to interact with customers
+        nodeType: text
+      nodeType: hyperlink
+    - data: {}
+      marks: []
+      value: ". Abigail Phillips, Head of Support at Help Scout, says, “Help Scout
+        creates an environment where we’re able to build relationships with our customers
+        in a way that is more helpful to them and, ultimately, more satisfying for
+        us.”"
+      nodeType: text
+    nodeType: paragraph
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: Keep reading to learn how you can create a winning customer-centric marketing
+        strategy to build more meaningful, long-lasting relationships with your customers.
+      nodeType: text
+    nodeType: paragraph
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: What is customer-centric marketing?
+      nodeType: text
+    nodeType: heading-2
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: A customer-centric marketing approach is designed to keep the customer’s
+        needs and interests at the heart of all business decisions, especially in
+        advertising, selling, and promoting the business’s services and products. 
+      nodeType: text
+    nodeType: paragraph
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: Customer-centric marketing prioritizes the customer’s long-term success
+        over any short-term business goals. 
+      nodeType: text
+    nodeType: paragraph
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: As Louis Grenier writes for HotJar, 
+      nodeType: text
+    - data:
+        uri: https://www.hotjar.com/blog/customer-centric-marketing
+      content:
+      - data: {}
+        marks: []
+        value: customer-centric marketing uses
+        nodeType: text
+      nodeType: hyperlink
+    - data: {}
+      marks: []
+      value: " “a blend of intuition, common sense, and solid data about customer
+        behavior.” It depends on having a deep understanding of what your customers
+        need, how they act, and the benefit your company can bring to them."
+      nodeType: text
+    nodeType: paragraph
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: The benefits of customer-centric marketing
+      nodeType: text
+    nodeType: heading-2
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: Historically, marketing was important in getting your product in front
+        of customers. The marketing mix of price, promotion, product, and place were
+        essential to convincing customers to pick up your product and give it a try.
+        This cycle has entirely changed over the last 10 years as customers have become
+        more connected. Recommendations from friends and family, online product reviews,
+        and search results carry more weight than any traditional marketing materials.
+        Customers are less likely to trust what companies say and far more likely
+        to trust what they read online or hear from friends.
+      nodeType: text
+    nodeType: paragraph
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: Because of this, the customer journey is often entirely self-driven at
+        this point. Customers do their own research, make their own decisions, and
+        purchase by themselves using self-checkouts.
+      nodeType: text
+    nodeType: paragraph
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: How is customer-centric marketing unique?
+      nodeType: text
+    nodeType: heading-2
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: Maybe you’re thinking that customer-centric marketing sounds pretty similar
+        to how you already do things in your company. You do user research, collect
+        customer feedback, and think about how to convert prospects to customers by
+        speaking their language.
+      nodeType: text
+    nodeType: paragraph
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: But a customer-centric marketing strategy takes all of that great stuff
+        a step further. There are three priorities that these organizations keep front
+        and center throughout their planning.
+      nodeType: text
+    nodeType: paragraph
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: Customer success
+      nodeType: text
+    nodeType: heading-3
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: Making your customers successful will trickle back to your business. 
+      nodeType: text
+    nodeType: paragraph
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: Customer-centric marketing is all about putting the power into your customers'
+        hands and helping them to become their best selves — even if they don’t end
+        up using your product. 
+      nodeType: text
+    nodeType: paragraph
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: A company that does this exceptionally well is Gainsight. They’ve created
+        a 
+      nodeType: text
+    - data:
+        uri: https://community.gainsight.com/
+      content:
+      - data: {}
+        marks: []
+        value: customer-centric community for customer success
+        nodeType: text
+      nodeType: hyperlink
+    - data: {}
+      marks: []
+      value: " folks to grow their skills and knowledge through Customer Success University
+        and their Pulse conferences. Through this community, Gainsight has become
+        known as the go-to company for customer success knowledge, which makes them
+        a leader in the space. Rather than spending all of their time and energy preaching
+        about the benefits of Gainsight, their marketing team works to advance the
+        interests of the customer success industry overall."
+      nodeType: text
+    nodeType: paragraph
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: Customer advocacy
+      nodeType: text
+    nodeType: heading-3
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: ''
+      nodeType: text
+    - data:
+        uri: https://www.helpscout.com/helpu/being-a-customer-centric-company/
+      content:
+      - data: {}
+        marks: []
+        value: Customer-centric marketing organizations
+        nodeType: text
+      nodeType: hyperlink
+    - data: {}
+      marks: []
+      value: " thrive on advocacy. They work hard to uncover what their customers
+        really want from their relationship, and they go to bat for them internally
+        and externally. This might mean creating more helpful resources to help them
+        get better at their jobs. Or it might look like sharing a customer’s success
+        on social media to help spread their news."
+      nodeType: text
+    nodeType: paragraph
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: Long-term strategy
+      nodeType: text
+    nodeType: heading-3
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: Many marketing organizations are measured exclusively on the number of
+        qualified leads they bring into the sales funnel. This can lead to some quick
+        fix solutions designed to get customers in the door, but these tactics are
+        often short-sighted, and while they might connect your sales team with a customer,
+        they don’t build a long-term relationship. Customer-centric marketers avoid
+        these short-term wins in favor of creating long-term value.
+      nodeType: text
+    nodeType: paragraph
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: Bill Macaitis puts it succinctly: 
+      nodeType: text
+    - data:
+        uri: https://www.hotjar.com/blog/customer-centric-marketing
+      content:
+      - data: {}
+        marks: []
+        value: Don’t piss off your customers
+        nodeType: text
+      nodeType: hyperlink
+    - data: {}
+      marks: []
+      value: "! “A narrow focus on leads (to the exclusion of all else) drives marketing
+        tactics that nobody likes,” says Macaitis. “Those tactics degrade your brand
+        integrity, and they leave you with more detractors than promoters … which
+        doesn’t bode well for your long-term success!”"
+      nodeType: text
+    nodeType: paragraph
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: The toolbox required for customer-centric marketing
+      nodeType: text
+    nodeType: heading-2
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: Intentionally putting your customers’ needs and interests first requires
+        a different set of tools than traditional marketing. These tools help you
+        to become more aligned with your customers and measure the success of your
+        marketing mix.
+      nodeType: text
+    nodeType: paragraph
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: Customer segmentation
+      nodeType: text
+    nodeType: heading-3
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: Customer-centric marketing needs to be hyper-personalized to be effective.
+        Knowing your user personas is a great start, but in order to effectively speak
+        to each individual person, customers need to be segmented in your systems.
+      nodeType: text
+    nodeType: paragraph
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: Typically, teams will segment users based on their lifetime value (LTV)
+        in order to target their marketing to higher-value customers. However, there
+        are an infinite number of ways you can segment your user base. From the services
+        they use, to how active they are, to their job titles — the more granular
+        you can be about your customer base, the more specific you can be with your
+        marketing strategy.
+      nodeType: text
+    nodeType: paragraph
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: Customer perspective
+      nodeType: text
+    nodeType: heading-3
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: 'Seeing things through the eyes of your customers is the central tenet
+        of customer-centric marketing. Anything that helps you achieve that goal is
+        a great tool to add to your marketing tool belt. For example:'
+      nodeType: text
+    nodeType: paragraph
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: Analytics
+      nodeType: text
+    nodeType: heading-3
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: Often it can seem like data-driven and customer-centric marketing live
+        on opposite sides of the spectrum. But nothing is further from the truth. 
+      nodeType: text
+    nodeType: paragraph
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: When making decisions based on your customers’ needs, it’s critical to
+        use the data that you have available to you. Rather than assuming you know
+        what your customers want, look at their actions, talk directly to customers,
+        and quantify both data sources. 
+      nodeType: text
+    nodeType: paragraph
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: Department collaboration
+      nodeType: text
+    nodeType: heading-3
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: Getting closer to your customers requires getting closer to the people
+        who speak to them every day. Front-line teams like customer support and business
+        development have a wealth of information about what customers are asking for
+        and what they want.
+      nodeType: text
+    nodeType: paragraph
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: Combining this information with customer-centric marketing strategies
+        means that your entire organization is aligned around the customer.
+      nodeType: text
+    nodeType: paragraph
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: Content
+      nodeType: text
+    nodeType: heading-3
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: Your brochures, your website, your blog, and your sales deck are all
+        pieces of content that customers will see and interact with. A customer-centric
+        marketing team builds its content in a very specific way so that it’s helpful
+        to customers, even if it doesn’t directly sell or promote their product.
+      nodeType: text
+    nodeType: paragraph
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: Developing customer-centric marketing processes
+      nodeType: text
+    nodeType: heading-2
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: Putting together all of the tools above to deliver a customer-centric
+        marketing strategy requires acting with purpose. This shift doesn’t just happen
+        by itself. Here are the steps you can take to build your 
+      nodeType: text
+    - data:
+        uri: https://www.helpscout.com/helpu/customer-centric/
+      content:
+      - data: {}
+        marks: []
+        value: customer-centric organization
+        nodeType: text
+      nodeType: hyperlink
+    - data: {}
+      marks: []
+      value: "."
+      nodeType: text
+    nodeType: paragraph
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: Start with senior leadership
+      nodeType: text
+    nodeType: heading-3
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: A shift in company strategy is always more effective if it’s supported
+        by those at the top. Teams who are inspired by their leadership will thrive
+        in an environment where “individuals feel heard and supported, and in turn
+        manage the customer experience with the same level of care and understanding,”
+        according to Macaitis.
+      nodeType: text
+    nodeType: paragraph
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: The fundamental skill required for this inspirational leadership is “centeredness,”
+        which is defined by 
+      nodeType: text
+    - data:
+        uri: https://www.bain.com/insights/how-leaders-inspire-cracking-the-code
+      content:
+      - data: {}
+        marks: []
+        value: Bain and The Economist Intelligence Unit
+        nodeType: text
+      nodeType: hyperlink
+    - data: {}
+      marks: []
+      value: " as “a state of mind that enables leaders to remain calm under stress,
+        empathize, listen deeply, and remain present.” These are all also qualities
+        essential to customer centricity. When leaders demonstrate these qualities
+        internally, employees feel confident reflecting this way of doing things with
+        customers as well."
+      nodeType: text
+    nodeType: paragraph
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: At Help Scout, senior leadership is very closely involved with customers, 
+      nodeType: text
+    - data:
+        uri: https://www.helpscout.com/helpu/being-a-customer-centric-company/
+      content:
+      - data: {}
+        marks: []
+        value: demonstrating customer centricity through their actions and words
+        nodeType: text
+      nodeType: hyperlink
+    - data: {}
+      marks: []
+      value: ". “[We] built this company because we want to empower our customers
+        and make their lives easier,” Co-founder Denny Swindle explains. “By remaining
+        close to customers through support, we see what customers are saying. Each
+        of us has the opportunity to help solve problems — through business decisions,
+        product improvements and design.”"
+      nodeType: text
+    nodeType: paragraph
+  - data: {}
+    content:
+    - data: {}
+      marks: []
+      value: Even if your senior team isn’t fully on board at the beginning, pull
+        them closer to the customer by offering opportunities to speak directly with
+        users and sharing customer quotes. By building connections and showing the
+        success of customer-centric marketing, you can move them closer to the end
+        goal of full support.
+      nodeType: text
+    nodeType: paragraph
+  nodeType: document

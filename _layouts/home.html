@@ -4,38 +4,44 @@ layout: default
 
 <div class="home">
   {% if page.title %}
-  <h1 class="page-heading">{{ page.title }}</h1>
+    <h1 class="page-heading">{{ page.title }}</h1>
   {% endif %}
 
   {{ content }}
 
-  {% if site.posts.size > 0 %}
-  <h2 class="post-list-heading">{{ page.list_title | default: 'Posts' }}</h2>
-  <ul class="post-list">
-    {% for post in site.posts %}
-    <li>
-      {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-      <span class="post-meta">{{ post.date | date: date_format }}</span>
-      <h3>
-        <a class="post-link" href="{{ post.url | relative_url }}">
-          {{ post.title | escape }}
-        </a>
-      </h3>
-      {% if site.show_excerpts %}
-      {{ post.excerpt }}
-      {% endif %}
-    </li>
-    {% endfor %}
-  </ul>
+  {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
 
-  <p class="feed-subscribe">
-    <a href="{{ 'feed.xml' | relative_url }}">
-      <svg class="svg-icon orange">
-        <use
-          xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"
-        ></use></svg
-      ><span>Subscribe</span>
-    </a>
-  </p>
+  {% if site.posts.size > 0 or site.data.contentful.spaces.posts.testBlogPost.size > 0 %}
+    <h2 class="post-list-heading">{{ page.list_title | default: 'Posts' }}</h2>
+    <ul class="post-list">
+      {% for post in site.data.contentful.spaces.posts.testBlogPost %}
+        {% assign post_id = post[0] %}
+        {% assign post_data = post[1] %}
+        <li>
+          <span class="post-meta">{{ post_data.sys.created_at | date: date_format }}</span>
+          <h3 id="{{ post_id }}">
+            <a class="post-link" href="#{{post_id}}">
+              {{ post_data.title | escape }}
+            </a>
+          </h3>
+          {{ post_data.body | rich_text }}
+        </li>
+      {% endfor %}
+      {% for post in site.posts %}
+        <li>
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
+          <h3>
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          </h3>
+          {{ post.content }}
+        </li>
+      {% endfor %}
+    </ul>
+
+    <p class="feed-subscribe">
+      <a href="{{ 'feed.xml' | relative_url }}">Subscribe</a>
+    </p>
   {% endif %}
 </div>
