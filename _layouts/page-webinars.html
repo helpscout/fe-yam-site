@@ -3,13 +3,17 @@
 
   {% include head.html %}
 
-  <body>
+  <body class="webinars">
 
     <link rel="stylesheet" href="{{ '/assets/css/webinars.css' | relative_url }}" />
 
-    {% include header.html %}
+    {% include mock-header.html %}
 
-    {{ content }}
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
 
     {% include footer.html %}
 

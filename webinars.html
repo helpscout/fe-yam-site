@@ -3,27 +3,84 @@ layout: 'page-webinars'
 ---
 
 <div id="webinars-banner">
-  <h3>Help Scout Classes</h3>
-  <h1>Free Training from the Team</h1>
-  <p>New to Help Scout? Get a full tour of the app and get all your questions answered with one of our resident customer champions.</p>
+  <div id="webinars-banner-content">
+    <h3>Help Scout Classes</h3>
+    <h1>Free Training from the Team</h1>
+    <p>New to Help Scout? Get a full tour of the app and get all your questions answered with one of our resident customer champions.</p>
+  </div>
+  <div id="webinars-banner-image">
+    <img
+      srcset="/assets/images/webinars-splash-image.png,
+        /assets/images/webinars-splash-image-2x.png 2x"
+      src="/assets/images/webinars-splash-image.png"
+      alt="Photographs: Smiling People"
+    >
+  </div>
 </div>
 
 <div id="webinars-container">
   <h2>Live classes twice per week, every week</h2>
-  <p>All time are in America, New York timezone.</p>
+  <p>All times are in America, New York timezone.</p>
   <ul id="webinars-list">
     {% for webinar in site.data.contentful.spaces.posts.recurringClass %}
       {% assign webinar_id = webinar[0] %}
       {% assign webinar_data = webinar[1] %}
-      <li class="webinar">
-        <h3>{{ webinar_data.day }}, {{ webinar_data.date }}</h3>
-        <p>{{ webinar_data.time }}</p>
-        <a href="#" class="button">Register</a>
+      <li class="webinars-list-item">
+        <div>
+          <h3>{{ webinar_data.day }}, {{ webinar_data.date }}</h3>
+          <p>{{ webinar_data.time }}</p>
+        </div>
+        <div>
+          <button
+            class="button webinar-register-button"
+            data-date-time="{{ webinar_data.day }}, {{ webinar_data.date }} at {{ webinar_data.time }}"
+            data-webinar-key="{{ webinar_data.webinar_key }}"
+            title="Register for the Webinar on {{ webinar_data.day }}, {{ webinar_data.date }}"
+          >
+            Register
+          </button>
+        </div>
       </li>
     {% endfor %}
-    <li>
-      <h3>Watch a Pre-recorded Webinar</h3>
-      <p>12 minutes</p>
-      <a href="#" class="button button-white">Register</a>
+    <li class="webinars-list-item">
+      <div>
+        <h3>Watch a Pre-recorded Webinar</h3>
+        <p>12 minutes</p>
+      </div>
+      <div>
+        <a href="#link-to-video" class="button button-white">Register</a>
+      </div>
   </ul>
+</div>
+
+<div id="webinar-register-modal" style="display: none;">
+  <div id="webinar-register-modal-box">
+    <header id="webinar-register-modal-header">
+      <div>
+        <p>You are registering for a class on:</p>
+        <h2 id="webinar-register-modal-date-time"></h2>
+      </div>
+      <img
+        srcset="/assets/images/webinar-modal-header-image.png,
+          /assets/images/webinar-modal-header-image-2x.png 2x"
+        src="/assets/images/webinar-modal-header-image.png"
+        alt="Illustration: Boy with thumbs up"
+      >
+    </header>
+    <form id="webinar-register-modal-form">
+      <input type="hidden" id="webinar-register-modal-key-input" required>
+      <input type="text" name="first_name" placeholder="First name" required>
+      <input type="text" name="last_name" placeholder="Last name" required>
+      <input type="email" name="work_email" placeholder="Work email" required>
+      <select name="team_members" required>
+        <option value="" selected disabled>How many team members do you expect will use Help Scout?</option>
+        <option>1-5</option>
+        <option>6-10</option>
+        <option>11-50</option>
+        <option>51-100</option>
+        <option>100+</option>
+      </select>
+      <button type="submit" class="button">Join Us!</button>
+    </form>
+  </div>
 </div>
