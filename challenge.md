@@ -18,7 +18,7 @@ Note: **Do not count** dev environment setup as part of your 6 hour limit. Start
 
 ## 🙌 Submitting
 
-Please send us a **zip** with the completed project along with **submission notes**.
+Please send us a link to a **zip** with the completed project along with **submission notes**.
 
 Your notes should detail:
 
