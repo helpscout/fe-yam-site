@@ -1,0 +1,46 @@
+.block\:post {
+  color: map-get($charcoal, '400');
+
+  &:not(:last-child) {
+    border-bottom: 1px solid map-get($ash, '400');
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+  }
+}
+
+.block\:post\:\:header {
+  margin-bottom: 20px;
+}
+
+.block\:post\:\:heading {
+  @include h1;
+  margin-bottom: 5px;
+}
+
+.block\:post\:\:time {
+  font-size: 15px;
+}
+
+.block\:post\:\:content {
+  p {
+    font-size: 18px;
+    line-height: 1.77772;
+    margin-bottom: 15px;
+
+    a {
+      color: map-get($blue, '500');
+
+      &:hover {
+        color: map-get($blue, '800')
+      }
+    }
+  }
+
+  h2 {
+    @include h2;
+  }
+
+  h3 {
+    @include h3;
+  }
+}

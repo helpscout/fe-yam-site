@@ -1,30 +1,27 @@
 ---
-layout: default
+layout: posts
 ---
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  {% for post in site.posts %}
+    {%
+      include article.html
+      title=post.title
+      date=post.date
+      content=post.content
+    %}
+  {% endfor %}
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-    {% for post in site.data.contentful.spaces.posts.testBlogPost %}
-      <li>
-        <span class="post-meta">{{ post[1].sys.updated_at | date: "%b %-d, %Y" }}</span>
-        <h2>
-          {{ post[1].title | escape }}
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  {% for post in site.data.contentful.spaces.posts.testBlogPost %}
+    {% assign temp = post[1] %}
+    {%
+      include article.html
+      title=temp.title
+      date=temp.sys.updated_at
+      content=temp.body
+      type="contentful"
+    %}
+  {% endfor %}
 
 </div>

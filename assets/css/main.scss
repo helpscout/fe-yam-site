@@ -66,6 +66,14 @@ $ipad: 1025px;
 
 // Import partials from the `minima` theme.
 @import 'minima';
+@import 'variables';
+@import 'mixins/index.scss';
+@import 'components/index.scss';
+@import 'cards/index.scss';
+@import 'forms/index.scss';
+@import 'blocks/index.scss';
+
+.home {margin-top: 50px}
 
 .wrapper {
   max-width: 1200px;

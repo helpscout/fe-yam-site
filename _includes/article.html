@@ -1,0 +1,13 @@
+<article class="block:post">
+  <header class="block:post::header">
+    <h1 class="block:post::heading">{{ include.title }}</h1>
+    <time class="block:post::time">{{ include.date | date: "%b %-d, %Y" }}</time>
+  </header>
+  <div class="block:post::content">
+    {% if include.type == 'contentful' %}
+      {{ include.content | rich_text }}
+    {% else %}
+      {{ include.content }}
+    {% endif %}
+  </div>
+</article>
