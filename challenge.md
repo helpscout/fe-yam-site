@@ -18,11 +18,9 @@ Note: **Do not count** dev environment setup as part of your 6 hour limit. Start
 
 ## 🙌 Submitting
 
-If you've **forked** the repo to your own Github account, create a **pull request**.
+Please send us a **zip** with the completed project along with **submission notes**.
 
-Alternatively, if you've chosen to avoid using Github, send us a **zip** with the completed project along with **submission notes**.
-
-Your pull request description/submission notes should detail:
+Your notes should detail:
 
 - Changes you've made
 - Approach you took
