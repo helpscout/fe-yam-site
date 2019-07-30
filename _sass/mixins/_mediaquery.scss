@@ -1,0 +1,18 @@
+@mixin mq ($to: 0, $from: 0) {
+
+  $query: "all" !default;
+
+  @if $from != 0 and $to != 0 { 
+    $query: "(min-width: #{$from}) and (max-width: #{$to})"; 
+  }
+  @else if $from != 0 and $to == 0 { 
+    $query: "(min-width: #{$from})";
+  }
+  @else if $from == 0 and $to != 0 { 
+    $query: "(max-width: #{$to})";
+  }
+
+  @media #{$query} {
+    @content;
+  }
+}

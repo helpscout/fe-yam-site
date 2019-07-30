@@ -1,0 +1,24 @@
+.block\:webinars\@about {
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-column-gap: 10px;
+
+  @include mq ($to: 800px) {
+    display: block;
+  }
+}
+
+.block\:webinars\@about\:\:content {
+  color: map-get($charcoal, '700');
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+.block\:webinars\@about\:\:box-1 {
+  grid-column: 1 / 7;
+}
+
+.block\:webinars\@about\:\:box-2 {
+  grid-column: 7 / 11;
+}

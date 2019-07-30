@@ -1,0 +1,60 @@
+.block\:modal\@register {
+  background: #fff;
+  max-width: 800px;
+  width: 90%;
+}
+
+.block\:modal\@register\:\:header {
+  align-items: center;
+  display: grid;
+  background-image: url(../images/gouache.png), linear-gradient(rgba(#FFEED1, .6), rgba(#FFE9ED, .6));
+  background-position: right center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  grid-template-columns: repeat(20, 1fr);
+  padding: 60px 100px;
+
+  @include mq ($to: 800px) {
+    padding: 30px 50px;
+  }
+}
+
+.block\:modal\@register\:\:box {
+  grid-column: 1 / -8;
+
+  @include mq ($to: 800px) {
+    grid-column: 1 / end;
+    grid-row: 2;
+  }
+}
+
+.block\:modal\@register\:\:icon {
+  grid-column: -4 / end;
+
+  @include mq ($to: 800px) {
+    grid-row: 1;
+    grid-column: 1 / 4;
+  }
+}
+
+.block\:modal\@register\:\:subheading {
+  color: map-get($charcoal, '300');
+  font-size: 20px;
+  letter-spacing: -.35px;
+  margin: 0 0 5px 0;
+}
+
+.block\:modal\@register\:\:heading {
+  color: map-get($charcoal, '800');
+  font-size: 34px;
+  font-weight: 500;
+  letter-spacing: -.35px;
+}
+
+.block\:modal\@register\:\:form {
+  padding: 60px 100px;
+
+  @include mq ($to: 800px) {
+    padding: 30px 50px;
+  }
+}

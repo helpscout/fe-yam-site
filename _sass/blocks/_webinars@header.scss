@@ -1,0 +1,28 @@
+.block\:webinars\@header {
+  margin-bottom: 15px;
+}
+
+.block\:webinars\@header\:\:subheading {
+  color: map-get($charcoal, '300');
+  font-size: 20px;
+  letter-spacing: -.35px;
+  line-height: 1.1;
+  margin: 0 0 25px 0;
+
+  @include mq ($to: 800px) {
+    font-size: 18px;
+  }
+}
+
+.block\:webinars\@header\:\:heading {
+  color: map-get($charcoal, '800');
+  font-size: 46px;
+  font-weight: 500;
+  letter-spacing: -.35px;
+  line-height: 1.1;
+  margin: 0;
+
+  @include mq ($to: 800px) {
+    font-size: 36px;
+  }
+}

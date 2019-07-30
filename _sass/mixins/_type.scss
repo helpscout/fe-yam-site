@@ -1,0 +1,19 @@
+@mixin heading {
+  font-weight: 500;
+  letter-spacing: -.35px;
+}
+
+@mixin h1 {
+  @include heading;
+  font-family: 46px;
+}
+
+@mixin h2 {
+  @include heading;
+  font-family: 30px;
+}
+
+@mixin h3 {
+  @include heading;
+  font-family: 18px;
+}
